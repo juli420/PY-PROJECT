@@ -12,7 +12,7 @@ def run():
   
   
   country = input('type Country => ')
-
+ 
   result = utils.population_by_country(data, country)
 
   if len(result) > 0:
