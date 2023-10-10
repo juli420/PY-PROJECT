@@ -16,6 +16,7 @@ def run():
         labels = [juego['Name'] for juego in top_10]
         values = [int(juego['Rank']) for juego in top_10]
         charts.generate_pie_chart(labels, values)
+        #charts.generate_bar_chart(labels, values)
     else:
         print('Año no válido')
 
